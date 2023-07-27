@@ -1,0 +1,234 @@
+*{
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 95%;
+    margin: auto;
+    box-sizing: border-box;
+}
+/* //////////////heder nav////////////////////// */
+.linkbar{
+    background-color: #28406D;
+}
+.lbbarclr{
+    background-color: #28406D;
+    width: 100%;
+    min-height: 45px;
+    line-height: 45px;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-style: initial;
+}
+.leftlink{
+    width: 50%;
+    
+}
+.leftlink li img{
+    height: 14px;
+    color: white;
+}
+.leftlink #li2{
+    margin-left: 10%;
+}
+
+.leftlink ul{
+    display: flex;
+    list-style: none;
+}
+.rightlink{
+    width: 50%;
+    display: flex;
+}
+.rightlink .socialimgs img{
+    height: 25px;
+    
+}
+.lneg{
+    width: 50%;
+    margin-left: 30%;
+
+}
+.socialimgs{
+    width: 50%;
+}
+/* //////////////2nd line of header//////// */
+.main-header{
+    display: flex;
+    padding: 18px;
+
+}
+.left-logo{
+    width: 50%;
+    margin: auto;
+
+}
+
+.right-text{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: space-around;
+    font-weight: 600;
+    color: #a8db51;
+}
+.number{
+    color: #28406D;
+}
+/* //////////////navbar////////////////////// */
+.wrapper-nav{
+    border-top: 1px solid #989BAD;
+}
+.navbar-div{
+    min-height: 60px;
+}
+.navbar-div{
+    display: flex;
+}
+.left-nav{
+    width: 80%;
+}
+
+.left-nav ul{
+    display: flex;
+    list-style: none;
+    color: #989BAD;
+    margin: auto;
+    justify-content: space-evenly;
+    font-weight: 600;
+}
+.left-nav ul li{
+    line-height: 60px;
+}
+.left-nav a{
+    text-decoration: none;
+    color: #989BAD;
+    text-decoration: none;
+    color: #989BAD;
+    border-left: 1px solid #989BAD;
+    border-right: 1px solid #989BAD;
+    padding: 0px 20px;
+}
+.right-nav{
+    width: 20%;
+    line-height: 60px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.right-nav input{
+    border: none;
+    border-style: none;
+    outline: none;
+}
+/* //////////////////banner area///////////// */
+.banner-div{
+    min-height: 600px;
+    animation: slider 9s linear 0s;
+    animation-iteration-count: infinite;
+}
+@keyframes slider{
+    0%{
+        background-image: url(./images/banner\ \(1\).png);
+    }
+    34%{
+        background-image: url(./images/banner\ \(1\).png);
+    }
+    35%{
+        background-image: url(./images/banner\ \(2\).png);
+    }
+    69%{
+        background-image: url(./images/banner\ \(2\).png);
+    }
+    70%{
+        background-image: url(./images/banner\ \(3\).png);
+    }
+    100%{
+        background-image: url(./images/banner\ \(3\).png);
+    }
+}
+/* /////////////3 text with icons section///////// */
+.text3-div{
+    display: flex;
+    padding: 30px;
+}
+.text-column{
+    display: flex;
+    width: 30%;
+    margin: auto;
+    padding: 10px 15px;
+}
+.text-column .text{
+    margin-left: 10%;
+}
+.text-column .text h3{
+    color:#28406D;
+}
+.text-column .text p{
+    color: #989BAD;
+    padding-top: 10%;
+}
+/* ////////////About Company//////////// */
+.aboutcompany{
+    background-color: #f6f3f3;
+    padding-bottom: 50px;
+}
+.top-bar-text{
+    text-align: center;
+}
+.topbar-p{
+    color: #303133;
+    font-weight: 600;
+    padding-top: 60px; 
+}
+.top-bar-text h3{
+    color: #28406D;
+    font-size: 22pt;
+    padding-top: 20px;
+}
+.top-bar-text span{
+    width: 127px;
+    height: 3px;
+    background-color: #a8db51;
+    display: inline-block;
+}
+.parent-3div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box-div1{
+    width: 30%;
+}
+.box-div2{
+    width: 30%;
+}
+.box-div2 h2{
+    color: #28406D;
+}
+.box-div2 p,ul{
+    color: #989BAD;
+    padding-top: 10px;
+    line-height: 1.5;
+}
+.box-div3{
+    width:30%;
+}
+.box-div3 h2{
+    color: #28406D;
+}
+.div3-txt{
+    color: #303133;
+    font-weight: 600;
+    line-height: 2.5;
+}
+.sub-wrapper-div3{
+    padding-top: 15px;
+}
+.div3-txt span{
+    background-color: #a8db51;
+    padding: 1px 5px;
+    cursor: pointer;
+}
